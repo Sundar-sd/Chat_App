@@ -1,0 +1,53 @@
+# 💬 Chat App
+
+A real-time chat application built using **Django** that allows users to communicate instantly through messages.
+
+## 🚀 Features
+
+- Real-time messaging
+- One-to-one chat
+- Responsive design
+- Secure data handling
+
+## 🛠️ Tech Stack
+
+**Backend:**
+- Django
+- Django Channels (for WebSockets)
+
+**Frontend:**
+- HTML
+- CSS
+- JavaScript
+
+**Database:**
+- SQLite (default Django database)
+- (Can be replaced with PostgreSQL or MySQL)
+
+**Other Tools:**
+- WebSockets
+- Git & GitHub
+
+## 📸 Screenshots
+
+### Index page
+
+<img src="screenshots/chat_index.png" width=600 />
+
+### One to One chat
+
+<img src="screenshots/one-to-one.png" width=600 />
+
+## 📦 Installation
+
+Use the following code to run the project locally:
+
+```bash
+git clone https://github.com/SusanCodes-GH/Chat_App.git
+cd Chat_App
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
