@@ -43,7 +43,7 @@ A real-time chat application built using **Django** that allows users to communi
 Use the following code to run the project locally:
 
 ```bash
-git clone https://github.com/SusanCodes-GH/Chat_App.git
+git clone https://github.com/Sundar-sd/Chat_App.git
 cd Chat_App
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
